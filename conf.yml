@@ -20,12 +20,12 @@ workflows:
           account-url: AWS_ECR_URL_DEV
           aws-access-key-id: AWS_DEV_ACCESS_KEY
           aws-secret-access-key: AWS_DEV_SECRET_KEY
-          # context: myContext
+          ### context: myContext
           create-repo: true
           dockerfile: Env/Dev/Dockerfile
           no-output-timeout: 20m
           path: .
-          # profile-name: myProfileName
+          #### profile-name: myProfileName
           region: AWS_REGION
           repo: healthlink-dev
           skip-when-tags-exist: false
